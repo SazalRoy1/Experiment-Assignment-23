@@ -95,17 +95,42 @@ a.active, a:hover{
 /* end nav bar media query  */
 /* -------()------ */
 
+/* start mind fresh message */
+
+.container_message{
+    width: 100%;
+    text-align:  center;
+    margin-top: 100px;
+    color: #0082e6;
+    
+}
+.content h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    
+}
+.content p{
+    margin-top: 20px;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+/* start mind fresh message */
+/* -------()------ */
+
+
 
 /* start  mini card desgin */
 
 .container{
+    margin-top: 100px;
     display: grid;
     width: 100%;
     grid-template-columns: repeat(6,1fr );
     margin-left: 360px;
 }
  .card img{
-   
+    width: 70%;
     align-items: center;
 
 }
